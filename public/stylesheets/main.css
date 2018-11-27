@@ -7,7 +7,7 @@
 
 /* Reseteo de márgenes de la clase h-100 de Bootstrap */
 .h-100 {
-    margin: 0;
+    padding: 0;
 }
 
 /*Scroll al hacer click en las anclas*/
@@ -16,6 +16,9 @@ html {
 }
 
 /* ======================== PANTALLA MENÚ ======================== */
+.app-group {
+    padding: 0;
+}
 
 .nav-menu {
     font-size: calc(0.3em + 1vw);
@@ -362,6 +365,7 @@ footer {
     color: white;
     position: absolute;
     bottom: revert;
+    left: 0;
 }
 
 .horario {

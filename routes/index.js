@@ -35,7 +35,7 @@ router.get('/prueba', (req, res, next) => {
 router.get('/usuarios', (req, res, next) => {
     let userController = new USERCONTROLLER(req, res, next);
     userController.getUsuarios();
-})
+});
 
 
 module.exports = router;
