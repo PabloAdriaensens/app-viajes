@@ -1,0 +1,22 @@
+{{ appName }}<br/>
+
+<!-- Método else simplificado -->
+{{# unless usuarios}}
+    <p>No existen usuarios</p>
+{{/unless}}
+
+<!-- Método extendido -->
+{{# if usuarios.length }}
+    {{log "Existen usuarios"}}
+    {{#each usuarios}}
+        {{id}}:{{name}}, <br/>
+    {{/each}}
+{{else}}
+    <p>No existen usuarios</p>
+{{/if}}
+
+{{#with administrador}}
+    Nombre: {{nombre}}, Apellido: {{apellidos}}
+{{else}}
+    No existe el administrador
+{{/with}}
