@@ -32,6 +32,24 @@ router.get('/prueba', (req, res, next) => {
         })
 });
 
+router.get('/login', (req, res, next) => {
+    res.render('login.hbs',
+        {
+            title: 'Vista Login',
+            page: 'Mi página de login',
+            layout: 'layout.hbs'
+        })
+});
+
+router.get('/register', (req, res, next) => {
+    res.render('register.hbs',
+        {
+            title: 'Vista Register',
+            page: 'Mi página de registro',
+            layout: 'layout.hbs'
+        })
+});
+
 router.get('/usuarios', (req, res, next) => {
     let userController = new USERCONTROLLER(req, res, next);
     userController.getUsuarios();
