@@ -7,7 +7,7 @@
 
 /* Reseteo de márgenes de la clase h-100 de Bootstrap */
 .h-100 {
-    padding: 0;
+    margin: 0;
 }
 
 /*Scroll al hacer click en las anclas*/
@@ -16,16 +16,13 @@ html {
 }
 
 /* ======================== PANTALLA MENÚ ======================== */
-.app-group {
-    padding: 0;
-}
 
 .nav-menu {
     font-size: calc(0.3em + 1vw);
 }
 
 .nav-menu .logo {
-    background-image: url("../images/iconoweb.png");
+    background-image: url("../img/iconoweb.png");
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 12vh;
@@ -70,7 +67,7 @@ html {
     width: 100vw;
     height: 70vh;
     min-height: 40vh;
-    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    background-image: url("../img/nathan-anderson-316188-unsplash.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -101,63 +98,101 @@ html {
 }
 
 .sprite-social #iconoTwitter {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: 0 32px;
 }
 
 .sprite-social #iconoTwitter:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: 0 0;
 }
 
 .sprite-social #iconoWhatsapp {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -32px 32px;
 }
 
 .sprite-social #iconoWhatsapp:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -32px 0;
 }
 
 .sprite-social #iconoFacebook {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -64px 32px;
 }
 
 .sprite-social #iconoFacebook:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -64px 0;
 }
 
 .sprite-social #iconoInstagram {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -96px 32px;
 }
 
 .sprite-social #iconoInstagram:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -96px 0;
 }
 
 .sprite-social #iconoLinkedin {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -128px 32px;
 }
 
 .sprite-social #iconoLinkedin:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -128px 0;
 }
 
 .sprite-social #iconoYoutube {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -160px 32px;
 }
 
 .sprite-social #iconoYoutube:hover {
-    background-image: url("../images/sprite_social.png");
+    background-image: url("../img/sprite_social.png");
     background-position: -160px 0;
+}
+/*======================== LOGIN ========================*/
+
+
+.login{
+    background-image: url("../img/travel-1.jpg");
+    width: 100vw;
+    height: 80vh;
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.formulario-registro {
+    background-color: #ffffff8c;
+    margin-top: 15vh;
+}
+
+
+.formulario-login {
+    background-color: #ffffff8c;
+    margin-top: 25vh;
+}
+
+
+.campos {
+    padding: 1vh;
+    margin: 0.5vh;
+    border-color: black;
+}
+
+.form-check {
+
+    padding-left: 14.25vw;
+}
+.p-login {
+    color:white;
+    font-size: 1.2em;
 }
 
 /*======================== DESTINOS ========================*/
@@ -209,27 +244,27 @@ html {
 }
 
 #beijing {
-    background-image: url("../images/beijing.jpeg");
+    background-image: url("../img/beijing.jpeg");
 }
 
 #buenosaires {
-    background-image: url("../images/buenos_aires.jpeg");
+    background-image: url("../img/buenos_aires.jpeg");
 }
 
 #ciudadmexico {
-    background-image: url("../images/ciudad_mexico.jpeg");
+    background-image: url("../img/ciudad_mexico.jpeg");
 }
 
 #madrid {
-    background-image: url("../images/madrid.jpeg");
+    background-image: url("../img/madrid.jpeg");
 }
 
 #newyork {
-    background-image: url("../images/new_york.jpeg");
+    background-image: url("../img/new_york.jpeg");
 }
 
 #tokyo {
-    background-image: url("../images/tokyo.jpeg");
+    background-image: url("../img/tokyo.jpeg");
 }
 
 /*Version movil*/
@@ -304,7 +339,7 @@ html {
 .quienes-somos-desktop {
     width: 100vw;
     height: 70vh;
-    background-image: url("../images/travel_1.jpg");
+    background-image: url("../img/travel_1.jpg");
     background-size: cover;
 }
 
@@ -365,7 +400,6 @@ footer {
     color: white;
     position: absolute;
     bottom: revert;
-    left: 0;
 }
 
 .horario {
@@ -405,6 +439,7 @@ footer {
     margin: 10px 0 0 0;
 }
 
+
 /* Versión movil */
 .social-footer {
     padding: 0;
@@ -426,57 +461,57 @@ footer {
     }
 
     .sprite-social #iconoTwitter:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: 0 0;
     }
 
     .sprite-social #iconoWhatsapp {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -24px 24px;
     }
 
     .sprite-social #iconoWhatsapp:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -24px 0;
     }
 
     .sprite-social #iconoFacebook {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -48px 24px;
     }
 
     .sprite-social #iconoFacebook:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -48px 0;
     }
 
     .sprite-social #iconoInstagram {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -72px 24px;
     }
 
     .sprite-social #iconoInstagram:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -72px 0;
     }
 
     .sprite-social #iconoLinkedin {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -96px 24px;
     }
 
     .sprite-social #iconoLinkedin:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -96px 0;
     }
 
     .sprite-social #iconoYoutube {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -120px 24px;
     }
 
     .sprite-social #iconoYoutube:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -120px 0;
     }
 }
@@ -528,62 +563,62 @@ footer {
     }
 
     .sprite-social .iconoTwitter {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: 0 16px;
     }
 
     .sprite-social .iconoTwitter:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: 0 0;
     }
 
     .sprite-social .iconoWhatsapp {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -16px 16px;
     }
 
     .sprite-social .iconoWhatsapp:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -16px 0;
     }
 
     .sprite-social .iconoFacebook {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -32px 16px;
     }
 
     .sprite-social .iconoFacebook:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -32px 0;
     }
 
     .sprite-social .iconoInstagram {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -48px 16px;
     }
 
     .sprite-social .iconoInstagram:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -48px 0;
     }
 
     .sprite-social .iconoLinkedin {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -64px 16px;
     }
 
     .sprite-social .iconoLinkedin:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -64px 0;
     }
 
     .sprite-social .iconoYoutube {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -80px 16px;
     }
 
     .sprite-social .iconoYoutube:hover {
-        background-image: url("../images/sprite_social.png");
+        background-image: url("../img/sprite_social.png");
         background-position: -80px 0;
     }
 }
@@ -631,5 +666,28 @@ footer {
     }
     #nav_hamburguesa{
         justify-content: flex-end !important;
+    }
+    .formulario-registro{
+        background-color: #ffffff8c;
+        margin-top: 14.5vh;
+        width: 86vw;
+        height: 64.5vh;
+    }
+    .texto-condiciones {
+        font-size: 0.6em;
+    }
+    .formulario-login {
+        background-color: #ffffff8c;
+        margin-top: 19vh;
+        width: 84vw;}
+    .btn-warning-registro{
+        margin: -23px 0 0 28vw;
+        background-color: #ffc107;
+        border-color:#ffc107;
+    }
+    .btn-warning{
+        margin: 10px 0 0 100px;
+        background-color: #ffc107;
+        border-color:#ffc107;
     }
 }
