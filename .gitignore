@@ -3,3 +3,10 @@ package-lock.json
 .idea/
 vendors/
 .vagrant/
+config.js
+ubuntu-xenial-16.04-cloudimg-console.log
+vm_apache_build.log
+vm_build.log
+vm_mysql_build.log
+vm_mysql_p_build
+vm_mysql_p_build.log

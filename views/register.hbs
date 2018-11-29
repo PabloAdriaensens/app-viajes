@@ -9,35 +9,39 @@
 
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center">
-                    <input type="text" class="col-6 campos " placeholder="Usuario">
-                </div>
-                <div class="row justify-content-center">
-                    <input type="text" class="col-6 campos" placeholder="Email">
-                </div>
-                <div class="row justify-content-center">
-                    <input type="text" class="col-6 campos" placeholder="Contraseña">
-                </div>
-                <div class="row justify-content-center">
-                    <input type="text" class="col-6 campos" placeholder="Repetir Contraseña">
-                </div>
-                <div class="form-group row justify-content-center">
-                    <div class="col">
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input " type="checkbox"> <em class="texto-condiciones">Acepto los términos y condiciones, así como la política de privacidad</em>
-                            </label>
+                <form action="" accept-charset="UTF-8" method="post">
+                    <div class="row justify-content-center align-items-center">
+                        <input type="text" name="username" class="col-6 campos " placeholder="Usuario">
+                    </div>
+                    <div class="row justify-content-center">
+                        <input type="email" name="email" class="col-6 campos" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="row justify-content-center">
+                        <input type="password" name="pass" class="col-6 campos" id="password" placeholder="Contraseña">
+                    </div>
+                    <div class="row justify-content-center">
+                        <input type="password" class="col-6 campos" id="confirm_password" placeholder="Repetir Contraseña">
+                    </div>
+                    <div class="row justify-content-center">
+                        <span id='message' class="col-6 campos text-center"></span>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <div class="col">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input " type="checkbox"> <em class="texto-condiciones">Acepto
+                                    los términos y condiciones, así como la política de privacidad</em>
+                                </label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group row justify-content-center ">
-                    <div class="col-sm-2">
-                        <button type="submit" class="btn btn-warning-registro">Enviar</button>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-warning">Enviar</button>
+                        </div>
                     </div>
-                </div>
-
+                </form>
             </div>
-        </div>
+       </div>
     </div>
 </div>
-

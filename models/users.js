@@ -1,4 +1,4 @@
-const CONN = require('../connections/mysqlconnection');
+const CONN = require('../helpers/mysqlconnection');
 
 let Users = {};
 
