@@ -32,15 +32,6 @@ router.get('/prueba', (req, res, next) => {
             layout: 'layout'
         })
 });
-/*
-router.get('/login', (req, res, next) => {
-    res.render('login.hbs',
-        {
-            title: 'Vista Login',
-            page: 'Mi página de login',
-            layout: 'layout.hbs'
-        })
-});
 
 router.get('/register', (req, res, next) => {
     res.render('register.hbs',
@@ -50,7 +41,7 @@ router.get('/register', (req, res, next) => {
             layout: 'layout.hbs'
         })
 });
-*/
+
 // RUTA LOGIN
 
 router.get('/login', (req, res, next) => {
@@ -67,7 +58,7 @@ router.get('/login', (req, res, next) => {
 router.get('/register', (req, res, next) => {
     let registerController = new RegisterController(req, res, next);
     registerController.index();
-})
+});
 
 router.post('/register', (req, res, next) => {
     let registerController = new RegisterController(req, res, next);
@@ -75,12 +66,4 @@ router.post('/register', (req, res, next) => {
 
 });
 
-
-/*
-router.get('/usuarios', (req, res, next) => {
-    let userController = new USERCONTROLLER(req, res, next);
-    userController.getUsuarios();
-});
-
-*/
 module.exports = router;
