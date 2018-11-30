@@ -8,7 +8,7 @@ class mysqlConnection
         return Mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            password:'mysql',
+            password:'rootroot',
             database: 'GeeksHubsTravel_DB'
         })
     }
