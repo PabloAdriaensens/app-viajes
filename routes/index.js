@@ -42,7 +42,6 @@ router.get('/login', (req, res, next) => {
             layout: 'layout.hbs'
         })
 });
-
 router.get('/register', (req, res, next) => {
     res.render('register.hbs',
         {
@@ -82,6 +81,5 @@ router.get('/usuarios', (req, res, next) => {
     let userController = new USERCONTROLLER(req, res, next);
     userController.getUsuarios();
 });
-
 */
 module.exports = router;
