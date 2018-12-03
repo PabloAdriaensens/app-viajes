@@ -14,17 +14,22 @@
                         <input type="text" name="username" class="col-6 campos " placeholder="Usuario">
                     </div>
                     <div class="row justify-content-center">
-                        <input type="email" name="email" class="col-6 campos" aria-describedby="emailHelp" placeholder="Email">
+                        <input type="email" name="email" class="col-6 campos" aria-describedby="emailHelp"
+                               placeholder="Email">
                     </div>
                     <div class="row justify-content-center">
                         <input type="password" name="pass" class="col-6 campos" id="password" placeholder="Contraseña">
                     </div>
                     <div class="row justify-content-center">
-                        <input type="password" class="col-6 campos" id="confirm_password" placeholder="Repetir Contraseña">
+                        <input type="password" class="col-6 campos" id="confirm_password"
+                               placeholder="Repetir Contraseña">
                     </div>
                     <div class="row justify-content-center">
                         <span id='message' class="col-6 campos text-center"></span>
                     </div>
+                    {{#if error}}
+                        <div class="alert-warning col-12 campos text-center">{{error}}</div>
+                    {{/if}}
                     <div class="form-group row justify-content-center">
                         <div class="col">
                             <div class="form-check">
@@ -42,6 +47,6 @@
                     </div>
                 </form>
             </div>
-       </div>
+        </div>
     </div>
 </div>
